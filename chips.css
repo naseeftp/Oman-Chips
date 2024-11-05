@@ -1,0 +1,461 @@
+body{
+    margin: 0;
+    overflow-x: hidden;
+}
+.navbar{
+    height: 120px;              /*setting height and widht for navbarsection*/
+    width: 100%;
+    background-color: #040E50;
+    display: flex;
+}
+.logocontainer{
+    width:50%;              /*logo container messurement*/
+    height: 120px;
+}
+.logoimage{
+    width: 150px;
+    height: 100px;            /* width and height for logo image*/
+    margin-left: 225px;
+}
+.navbarelementsection{
+    width:450px;
+    height: 120px;            /*setting element div a height and width and align its content*/
+    align-items: center;
+   align-content: center;
+   color: #ffffff;
+}
+
+.elements{
+    color: #ffffff;
+    font-family: "Proxima Nova", Sans-serif;
+    font-size: 16px;
+    font-size: 16px;     /* setting charactor for elements in element section*/
+    font-weight: 700;
+    line-height: 19px;
+    text-decoration: none;
+    padding: 20px;
+}
+i{
+    color: #ffffff;
+    align-content: center;
+    align-items: center;    /* giving behaviours to cart symbol*/
+   padding-left: 20px;
+   padding-top: 55px;
+}
+.secondsection{
+    height: 789px;
+    background: linear-gradient(to bottom, #23228f, #f00100, #f00); /* gradient color for first page*/
+    display: flex;
+
+}
+.chipsimage{
+    width: 380px;
+    height: 530px;
+    margin-left: 175px; /* fisrt page image*/
+    margin-top: 70px;
+}
+.seconpartadd{
+width: 623.562px;       /*first page content div*/
+height: 626px;
+padding-top: 126px;
+}
+.second-head-content {
+    color: rgb(255, 255, 255);
+    font-size: 83px;
+    font-family: 'Proxima Nova', sans-serif;  /*adding charcters to first page div*/
+    line-height: 100px;
+    font-weight: 700;
+    text-align: center;
+    width: 679px;
+    height: 526px;
+    align-items: center;
+}
+.buynowbutton{
+    height: 55px;
+    width:150px;
+    background-color:#040E50 ;          /* first page buy now button*/
+    color: white;
+    font-family: 'Proxima Nova', Sans-serif;
+    border-radius: 5px;
+    font-size: 24px;
+    font-weight: 600px;
+    border-width: inherit;
+   
+}
+.secondpage{
+height: 752.04px;
+width: 100%;
+background-color: #fdf3f3;  /*setting height and width and charcter to second page div*/
+display:flex;
+
+}
+.seconpagepart1{
+    height: 752.04px;
+    width: 50%;
+    color: #040E50;
+    font-family: "Proxima Nova", Sans-serif;
+
+   
+}
+.seconpagepart2{
+     height: 752.04px;
+    width: 50%;
+    
+}
+.secondpagecontentpart1{
+   font-size: 38px;
+    font-weight: 700;
+    line-height: 46px;
+    margin-top: 120px;
+    margin-left: 200px;
+    margin-bottom: 0px;           
+
+}
+.seconpagecontentpart2{
+font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;                    /*deviding second page content*/
+    margin-left: 215px;
+   
+}
+.seconpagecontentpart3{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27px;
+    margin-left: 215px;
+    padding-top: 10px;
+}
+.powder{
+    width: 595px;
+    height: 376.04px;
+    position: relative;
+    bottom: 0px;               /*second page powder image*/
+    top: 41px;
+    left: 78px;
+}
+.seconpagechips{
+    width: 540px;           /*deviding third page chips image character*/
+    height: 500px;
+    position: relative;
+    top: 38px;
+}
+.thirdpage{
+    height: 420px;
+    width: 100%;        /*third page */
+    display: flex;
+    align-items: center;
+ }
+.thirdpagehead{
+    color:rgb(196, 0, 11);
+    font-family:'spicy Rice';
+    font-size: 49.5px;
+    font-style: normal;        
+    font-weight: 900;
+    letter-spacing:2px;
+    margin: auto;                     /*content section*/
+    display: inline;
+    position: relative;
+    left: 130px;
+
+}
+.thirdpagebutton{
+    height: 42.2px;
+     width: 219.613px;
+    color: rgb(200,14,12) ;
+    font-weight: 600;
+    font-size: 15px;                             /*third page button*/
+    background-color: rgb(249,238,238);
+    border-radius:5px;
+    border-color: rgb(194, 0, 11) ;
+    border: solid;
+    position: relative;
+    top: 135px;
+    left: -612px;
+    cursor: pointer;
+
+}
+.thirdpagebutton:hover{
+    background-color: rgb(196, 0, 11);      
+    color: rgba(243, 208, 13, 0.955);      /*setting suedo class for third page button*/
+    border-color:transparent;
+
+}
+.fourthpage{
+
+    background-color: #fdf3f3;
+    height: 760px;
+    width: 100%;
+}
+.fourthpagecontent{
+    padding-top:70px;
+    margin-left: 200px;
+      width: 50%;
+     
+      height:650px;
+  
+  }
+.offer{
+    color:#040E50;
+    font-family: "Roboto", Sans-serif;
+   font-weight:700;
+   font-style: italic;
+   line-height:46px;
+   font-size: 55px;
+                                                   /*giving behaviours to fourth page content class by class*/
+  
+}
+.grab{
+    color: #D91414;
+    font-family: "Proxima Nova", Sans-serif;
+    font-size: 41px;
+    font-weight: 800;
+    line-height: 46px;
+    margin-top: -30px;
+
+
+}
+.pack{
+    color: #040E50;
+    font-family: "Proxima Nova", Sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 58px;
+    margin-top: -30px;
+   
+}
+.priceimage{
+    margin-top: -36px;
+    height:47px;
+    width: 335px;        /*price tag image width and height aligning its position*/
+    margin-top: -30px;
+
+}
+.fourthpagedescription{
+    font-family: "proxima Nova", sans-serif;
+    font-size: 18px;
+    color: #040E50;
+    line-height:25px;
+    margin-top: 10px;
+    
+}
+.buynow1{
+            background-color: rgb(217, 20, 20);
+            height: 45px;
+            width: 134px;
+            font-weight: 600px;
+            cursor: pointer;
+            font-size: 18px;
+            font-family: 'Proxima Nova', sans-serif;
+
+            border-radius: 5px;
+            font-size: 18px;
+            font-weight: normal;
+            color: #fdf3f3;
+            align-content: center;
+            align-items: center;
+            padding-left:35px;
+
+}
+.fourtpagesecondpart{
+   
+    width: 50%;
+    height:650px;
+    background-color: #f00;
+}
+.offerpackimage{
+    width: 659px;
+    height: 494px;
+    position: relative;
+    top: -631px;
+    right: -646px;
+}
+.fifthpage{
+    width: 100%;
+    height: 650px;
+    background-color: #fdf3f3;
+}
+.fifthpageimage{
+    width: 1024px;
+    height: 536px;
+    position: relative;
+    left: 251px;
+    top: 14px;
+
+}
+.sixtpage{
+    width: 100%;
+    height: 650px;
+    background-color: #fdf3f3;
+    display: flex;
+}
+.sixthpageimage{
+    width: 496.21px;
+    height: 496.21px;
+    position: relative;
+    left: 210px;
+    top: 45px;
+}
+.sixthpagecontent{
+    height:500px;
+    width: 583px;
+    position: relative;
+    left: 283px;
+   
+   
+}
+.sixtpagecontentpart1{
+    color: rgb(217,0,0);
+    font-size: 20px;
+    font-family: "Proxima Nova", Sans-serif;
+    font-weight:bold;
+    margin-top: 155px;
+    margin-left: -40px;
+    line-height: 24px;
+}
+.sixtpagecontentpart2{
+    color: #040E50;
+    font-family: "Proxima Nova", Sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 41px;
+    margin-left: -41px;
+    margin-top: 7px;
+}
+.sixtpagecontentpart3{
+
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    font-weight:bold;
+    line-height: 39px;
+    margin-left: -38px;
+    margin-top: -28px;
+    color: rgb(217, 20, 20);
+}
+.sixtpagecontentpart4{
+    font-family:"Proxima Nova", Sans-serif ;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(4, 14, 80);
+    margin-left: -38px;
+    margin-top: -15px;
+}
+.sixtpagebutton{
+    background-color: rgb(217, 20, 20);
+    height: 45px;
+    width: 134px;
+    font-weight:bold;
+    cursor: pointer;
+    font-size: 18px;
+    font-family:'Proxima Nova', Sans-serif ;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: normal;
+    color: #fdf3f3;
+    align-content: center;
+    align-items: center;  
+    margin-left:-37px;
+    margin-top: 10px;
+    border-width: inherit;
+}
+
+.finallayout{
+    width: 100%;
+    height:100%;
+    object-fit:fill;
+}
+.footer{
+height: 590px;
+width: 100%;
+position: absolute;
+
+}
+.finalpagehead{
+    color:white;
+    font-family: "Proxima Nova", Sans-serif;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 30px;
+    position:absolute;
+   top: 100px;
+    left: 450px;
+
+}
+.finalpagemessage{
+    color: #FFFFFF;
+    font-family: "Proxima Nova", Sans-serif;
+    font-size:18px;
+    top: -425px;
+    left: 475px;
+    position: relative;
+}
+.searchbar{
+    width: 269px;
+    height: 54px;
+   border-bottom-left-radius: 8px;
+   border-top-left-radius: 8px;
+   position: relative;
+   top:-400px;
+   left: 490px;
+   font-size:16px;
+   padding-left: 12px;
+   border: transparent;
+  
+   
+
+}
+.Subscribebutton{
+    width: 137px;
+    height: 58px;
+    background-color: #D91414;
+    position: relative;
+    top: -400px;
+    left: 479px;
+   font-size:16px;
+   font-family: "Proxima Nova", sans-serif;
+  cursor: pointer;
+  font-size: 16px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  font-weight: 600;
+  color: #fdf3f3;
+ border: transparent;
+
+}
+.instagram{
+    height: 50px;
+    width: 50px;
+    background-color:white;
+    border-radius: 50%;
+    position:relative;
+    top: -372px;
+    left: 664px;
+    cursor: pointer;
+}
+.instagram:hover{
+    background-color: #f00;
+}
+.insta-logo{
+   
+    width: 21px;
+    position: relative;
+    top: 13px;
+    left: 14px;
+}
+.linediv{
+    width:1030px;
+    height: 1px;
+    background-color: gray;
+    position: relative;
+    top: -263px;
+    left: 77px;
+}
+.copy{
+    color: #fdf3f3;
+    font-family: "Proxima Nova", Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29px;
+    position: relative;
+    left: 547px;
+    top: -253px;
+}
